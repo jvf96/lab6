@@ -11,7 +11,7 @@
 The DESCRIPTION file
 \packageDESCRIPTION{lab6}
 \packageIndices{lab6}
-create a package for the knapsack problem
+create a package of the knapsack problem
 }
 \author{ packageAuthor {Jorge Villar Fuentes}
 
