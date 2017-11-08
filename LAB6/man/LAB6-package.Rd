@@ -1,16 +1,16 @@
-\name{lab6-package}
+\name{LAB6}
 \docType{package}
-\title{
-\packageTitle{lab6}
+\title{The Knapsack problem}
+\packageTitle{LAB6}
 }
 \description{
-\packageDescription{lab6}
+\packageDescription{LAB6}
 }
 \details{
 
 The DESCRIPTION file
-\packageDESCRIPTION{lab6}
-\packageIndices{lab6}
+\packageDESCRIPTION{LAB6}
+\packageIndices{LAB6}
 create a package of the knapsack problem
 }
 \author{ packageAuthor {Jorge Villar Fuentes}
