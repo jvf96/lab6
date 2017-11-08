@@ -1,0 +1,16 @@
+Package: LAB6
+Type: Package
+Title: The Knapsack Package
+Version: 1.0
+Date: 2017-10-20
+Authors@R: c(
+    person("Jorge", "Villar Fuentes", email = "jorvi903@student.liu.se", role = "cre"),
+    person("Ashmaful", "Alam", email = "ashas926@student.liu.se", role = "aut"))
+Maintainer: Jorge Villar Fuentes <jorgevillarfuentes@hotmail.com>
+Description: With this package we can solve the knapsack problem with three ways, Greedy Heuristic, Dynamic Programming, Brute Force Search
+License: GPL-2
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
