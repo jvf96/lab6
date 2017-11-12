@@ -10,6 +10,8 @@ brute_force_knapsack(x, W, parallel = FALSE)
 \item{x}{Data Frame that contain v(value) and w(weight)}
 
 \item{W}{Vector eith the knapsack size}
+  
+\item{parallel}{Default parallel=FALSE. If parallel=TRUE the function parallelizes over cores detected}
 }
 \value{
 a list with the value and elements of the knapsack
