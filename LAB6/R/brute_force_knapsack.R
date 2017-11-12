@@ -29,8 +29,8 @@ brute_force_knapsack <- function(x,W,parallel=FALSE){
   
   #we create this function
   brute <- function(m, n=n, v=v, w=w, W=W){
-    comb <- combn(len,m)
-    weight <- combn(w,m)
+    comb <- combn(1:n,m=m)
+    weight <- combn(w,m=m)
     condit <- (colSums(weight)<=W)
     
     #if the condition (colSums(weight)<=W) is true any time
