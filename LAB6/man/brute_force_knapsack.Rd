@@ -4,7 +4,7 @@
 \alias{brute_force_knapsack}
 \title{Brute Force Search}
 \usage{
-brute_force_knapsack(x, W)
+brute_force_knapsack(x, W, parallel = FALSE)
 }
 \arguments{
 \item{x}{Data Frame that contain v(value) and w(weight)}
@@ -20,7 +20,9 @@ use the brute force search to solves the problem
 \examples{
 set.seed(42) 
 n <- 2000 
-knapsack_objects <- data.frame( w=sample(1:4000, size = n, replace = TRUE), v=runif(n = n, 0, 10000))
+knapsack_objects <- data.frame(
+w=sample(1:4000, size = n, replace = TRUE),
+v=runif(n = n, 0, 10000))
 brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500)
 brute_force_knapsack(x = knapsack_objects[1:12,], W = 3500)
 brute_force_knapsack(x = knapsack_objects[1:8,], W = 2000)
