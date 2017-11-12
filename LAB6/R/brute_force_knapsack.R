@@ -2,6 +2,7 @@
 #' @description  use the brute force search to solves the problem
 #' @param x Data Frame that contain v(value) and w(weight)
 #' @param W Vector eith the knapsack size
+#' @param parallel Default parallel=FALSE. If parallel=TRUE the function parallelizes over cores detected
 #' @return a list with the value and elements of the knapsack
 #' @refereces \url{https://en.wikipedia.org/wiki/Knapsack_problem} 
 #' @examples
